@@ -1,0 +1,59 @@
+/*MES STYLE GENERAUX*/
+
+body,html{
+  margin: 0px;
+  padding: 0px;
+  
+}
+h1 {
+  color: white;
+  font-size: 45px
+}
+.tres{
+  border-style: ridge;
+  width: 200px;
+  margin: 15px auto;
+  border-radius: 10px;
+  border-color: royalblue;
+  
+    
+}
+ /*STYLES DE MON HEADER*/
+.mon-header{
+  background-image: url(../images/cacoa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  
+}
+
+.conteneur-logo{
+  margin: 20px;
+  color: aliceblue;
+  background-color: rgba(0,0,0,0.5);
+  display: inline-block;
+  float: left;
+  
+}
+
+.descrption{
+  color: ivory;
+  margin: 20px;
+}
+
+
+/*STYLE DE MA SECTION*/
+.section1{
+  margin-top: 50px;
+ 
+}
+.image-plat{
+  margin-left: 10px;
+}
+
+/*MON FOOTER*/
+
+.page-footer{
+  color: white;
+  background-color: grey;
+}

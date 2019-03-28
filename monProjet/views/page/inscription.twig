@@ -1,0 +1,59 @@
+
+ {% include '../page/header2.twig' %}	
+	<div class="separation"></div>
+	<div class="body-inscription">
+		<div class="container ">
+			<div class="formulaire">
+
+				<center>
+					<div class="titre-formulaire">
+						<h4 class="h4 mb-4">inscription</h4>
+					</div>
+				<form method="post"  class="text-center border border-light p-5">
+					<div class="form-row mb-4">
+						<div class="col">
+							<label for="name" class="h5">Nom :</label>
+							<p><input type="text" name="nom" placeholder="votre Nom"></p>
+						</div>
+						<div class="col ">
+							<label for="prenom" class="h5">Prenom :</label>
+							<p><input type="text" name="prenom" placeholder="Prenom"></p>
+						</div>
+					</div>
+
+					<div class="form-row mb-4">
+						<div class="col">
+							<label for="email" class="h5">Email:</label>
+							<p><input type="email" name="email" placeholder="email"></p>
+						</div>
+						<div class="col">
+							<label for="numero" class="h5">Numero :</label>
+							<p><input type="text" name="numero" placeholder="votre Numero"></p>
+						</div>
+					</div>
+
+					<div class="form-row mb-4">
+						<div class="col">
+							<label for="password" class="h5">Password :</label>
+							<p><input type="password" name="password" placeholder="password"></p>
+						</div>
+						<div class="col">
+							<label for="confirm" class="h5">comfirme password :</label>
+							<p><input type="password" name="confirm" placeholder="confirm password"></p>
+						</div>
+					</div>
+					
+					<button type="submit" class="btn btn-info my-4 btn-block" id="submit">submit</button>
+
+					<div class="row">
+						
+					</div>
+					
+				</form>
+			</center>
+			</div>
+		</div>
+	</div>	
+
+
+{% include '../page/footer.twig' %}	 

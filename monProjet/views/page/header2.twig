@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>inscription</title>
+	<link rel="stylesheet" type="text/css" href="../dossier/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../dossier/css/mdb.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="../dossier/css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<header class="mon-header">
+				
+				
+					<!-- MA BAR DE NAVIGATION AVEC LE LIEN DE MES ONGLET  -->
+			<div class="menu-header-1" >
+
+		<!--Navbar -->
+			<nav class="mb-1 navbar navbar-expand-lg navbar-dark black lighten-1">
+				
+				  <a class="navbar-brand" href="#">acueille</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+				    aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+					    <ul class="navbar-nav mr-auto">
+					      <li class="nav-item active">
+					        <a class="nav-link" href="#">menu
+					          <span class="sr-only">(current)</span>
+					        </a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#">contacte</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#">incription</a>
+					      </li>
+					    </ul>
+					    <ul class="navbar-nav ml-auto nav-flex-icons">
+					       	<li class="nav-item dropdown">
+						        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true"
+						          aria-expanded="false">
+						          <i class="fas fa-user"></i>
+						        </a>
+						        <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+						          <a class="dropdown-item" href="#">Action</a>
+						          <a class="dropdown-item" href="#">Another action</a>
+						          <a class="dropdown-item" href="#">Something else here</a>
+						        </div>
+		    				</li>
+					    </ul>
+				  </div>
+				
+			</nav>
+		<!--/.Navbar -->
+			<div class="conteneur-logo">
+				<h1>ivoire <span>chocolat</span></h1>
+			</div><br><br><br>
+						
+		</header>
+		<div class="ui main container">
+			{%if (error)  %}
+			<div class="message-error stylesheet">
+				{{error}}
+			</div>
+			{%-endif-%}
+		</div>	

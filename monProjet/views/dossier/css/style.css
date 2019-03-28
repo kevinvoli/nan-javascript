@@ -1,0 +1,52 @@
+
+body, html{
+  margin: 0px;
+  padding: 0px;
+  
+}
+h1 {
+  color: white;
+  font-size: 45px
+}
+
+.mon-header{
+  background-image: url(../images/cacoa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  
+  
+}
+.conteneur-logo{
+  margin: 20px;
+  color: aliceblue;
+  background-color: rgba(0,0,0,0.5);
+  display: inline-block;
+  float: left;
+  z-index: 5;
+  
+}
+.body-inscription{
+    background-image: url(../images/bg4.jpg);
+    padding: 5%;
+}
+
+.formulaire{
+  border: 2px red bold;
+  background-color: azure;
+  height: 50%;
+  padding-top: 25px;
+  
+}
+.green{
+  margin: 100px auto;
+  height: 500px;
+  width: 100%;
+  padding: 30px;
+}
+
+
+.page-footer{
+  color: white;
+  background-color: grey;
+}
